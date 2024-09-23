@@ -1,0 +1,88 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .gap-6 {
+  gap: 0.5rem;
+}
+
+.p-6{
+  padding: 0.4rem 1rem;
+} */
+
+/* .bg-blue-700 {
+  background-color: transparent;
+}
+
+.bg-blue-700 button:hover {
+  background-color: black;
+} */
+
+.text-white{
+  color: red;
+}
+/* 
+.css-jybny-MuiTableRow-root td:first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.cursor {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.cursor:hover {
+  transform: scale(1.1);
+}
+
+.font-nm{
+  font-weight: 400 !important;
+}
+
+.text-sm-custome {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+
+.text-bs {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+.font-semi {
+  font-weight: 600 !important;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+}
